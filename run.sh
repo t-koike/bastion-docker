@@ -1,1 +1,1 @@
-sudo docker run -d -p 10000:22  test-bastion-server:latest
+sudo docker run -d -p 10000:22  bastion-server:latest

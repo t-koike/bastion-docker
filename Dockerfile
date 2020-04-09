@@ -1,4 +1,5 @@
 FROM ubuntu:18.04
+LABEL  maintainer "t-koike"
 
 RUN apt-get update && apt-get install -y openssh-server sudo libpam-google-authenticator
 RUN mkdir /var/run/sshd
